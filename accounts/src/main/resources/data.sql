@@ -25,6 +25,7 @@ VALUES ('robin', '0987654321', 'robin@test.com', CURRENT_DATE );
 INSERT INTO ACCOUNTS (customer_id, account_number, account_type, branch, expiry_date)
 VALUES ( '1', '1234567890', 'CURRENT', 'delhi', CURRENT_DATE);
 
+
 INSERT INTO ACCOUNTS (customer_id, account_number, account_type, branch, expiry_date)
 VALUES ( '2', '0987654321', 'SAVINGS', 'mumbai', CURRENT_DATE);
 

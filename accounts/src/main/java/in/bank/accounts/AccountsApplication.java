@@ -7,11 +7,12 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-@ComponentScan({"in.bank.accounts.controller", "in.bank.accounts"})
+@ComponentScan({ "in.bank.accounts.controller", "in.bank.accounts" })
 @EntityScan("in.bank.accounts.model")
 @EnableJpaRepositories("in.bank.accounts.repository")
+
 public class AccountsApplication {
-    public static void main(String[] args) {
-        SpringApplication.run(AccountsApplication.class, args);
-    }
+	public static void main(String[] args) {
+		SpringApplication.run(AccountsApplication.class, args);
+	}
 }

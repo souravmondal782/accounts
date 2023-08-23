@@ -12,5 +12,5 @@ import in.bank.accounts.model.Accounts;
 
 @Repository
 public interface AccountsRepository extends CrudRepository<Accounts, Long> {
-    List<Accounts> findByCustomerId(int customerId);
+    Accounts findByCustomerId(int customerId);
 }
